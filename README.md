@@ -59,18 +59,20 @@ This project uses deep learning models to classify chest X-rays as either **Tube
 4. Ensure dataset directories are structured as follows:
    TB_Chest_Radiography_Database/
     ├── Train/
+   
     ├── Val/
+   
     └── Test/
 
 ## Usage
 1. Run the Flask App
-   
- python app1.py
 
-2. Train Models
+   python app1.py
+
+3.Train Models
    
  EfficientNet:
-  python effi.py
+    python effi.py
 
  MobileNetV2:
   python mob.py
@@ -94,7 +96,7 @@ PIL
 
 Install all dependencies using:
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 
