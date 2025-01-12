@@ -67,7 +67,7 @@ This project uses deep learning models to classify chest X-rays as either **Tube
    
  python app1.py
 
-3. Train Models
+2. Train Models
    
  EfficientNet:
   python effi.py
@@ -94,7 +94,7 @@ PIL
 
 Install all dependencies using:
 
- pip install -r requirements.txt
+  pip install -r requirements.txt
 
 
 
