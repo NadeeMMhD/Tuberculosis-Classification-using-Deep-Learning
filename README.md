@@ -45,7 +45,7 @@ This project uses deep learning models to classify chest X-rays as either **Tube
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/username/tb-classification.git
+   git clone https://github.com/NadeeMMhD/Tuberculosis-Classification-using-Deep-Learning.git
    cd tb-classification
    
 2. Install dependencies
