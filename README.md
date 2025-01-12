@@ -68,25 +68,7 @@ This project uses deep learning models to classify chest X-rays as either **Tube
    
     └── Test/
 
-## Usage
-1. Run the Flask App
-```
-   python app1.py
-```
-3.Train Models
-  
- EfficientNet:
-```
-    python effi.py
-```
- MobileNetV2:
- ```
-  python mob.py
-  ```
- ResNet50:
- ```
-  python resnet.py
-```
+
 ## Dependencies
 
 Python 3.8+
