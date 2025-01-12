@@ -51,7 +51,7 @@ This project uses deep learning models to classify chest X-rays as either **Tube
 
    
 2. Install dependencies
-``` 
+   ``` 
    pip install -r requirements.txt
    ```
 3. Download the pretrained model weights and place them in a models/ directory:
