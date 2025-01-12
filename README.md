@@ -45,12 +45,16 @@ This project uses deep learning models to classify chest X-rays as either **Tube
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/NadeeMMhD/Tuberculosis-Detection-using-Deep-Learning.git
-   cd tb-classification
+    ```
+    git clone https://github.com/NadeeMMhD/Tuberculosis-Detection-using-Deep-Learning.git
+    ```
+    ```
+    cd tb-classification
    
 2. Install dependencies
+``` 
    pip install -r requirements.txt
-   
+   ```
 3. Download the pretrained model weights and place them in a models/ directory:
    models/model_mob.pth
    models/best_resnet_model.pth
@@ -58,6 +62,7 @@ This project uses deep learning models to classify chest X-rays as either **Tube
 
 4. Ensure dataset directories are structured as follows:
    TB_Chest_Radiography_Database/
+   
     ├── Train/
    
     ├── Val/
@@ -66,20 +71,23 @@ This project uses deep learning models to classify chest X-rays as either **Tube
 
 ## Usage
 1. Run the Flask App
-
+```
    python app1.py
-
+```
 3.Train Models
-   
+  ``` 
  EfficientNet:
+
     python effi.py
-
+```
  MobileNetV2:
+ ```
   python mob.py
-  
+  ```
  ResNet50:
+ ```
   python resnet.py
-
+```
 ## Dependencies
 
 Python 3.8+
