@@ -45,13 +45,13 @@ This project uses deep learning models to classify chest X-rays as either **Tube
 ## Installation
 
 1. Clone the repository:
-    ```
+     ```
     git clone https://github.com/NadeeMMhD/Tuberculosis-Detection-using-Deep-Learning.git
     ```
 
    
 2. Install dependencies
-   ``` 
+    ``` 
    pip install -r requirements.txt
    ```
 3. Download the pretrained model weights and place them in a models/ directory:
@@ -85,7 +85,7 @@ PIL
 
 Install all dependencies using:
 
-    pip install -r requirements.txt
+     pip install -r requirements.txt
 
 
 
