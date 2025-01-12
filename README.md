@@ -74,9 +74,9 @@ This project uses deep learning models to classify chest X-rays as either **Tube
    python app1.py
 ```
 3.Train Models
-  ``` 
+  
  EfficientNet:
-
+```
     python effi.py
 ```
  MobileNetV2:
